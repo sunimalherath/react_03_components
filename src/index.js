@@ -6,9 +6,9 @@ import CommentDetail from "./CommentDetail"; // ./ means look in the same folder
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
+      <CommentDetail author="John" />
+      <CommentDetail author="Jane" />
+      <CommentDetail author="Matrix" />
     </div>
   );
 };
